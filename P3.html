@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+    <!-- bs css cdn -->
+
+    <!-- custom css -->
+</head>
+<body>
+    <h1>JS Events</h1>
+
+    <select name="" id="studentsName" onChange="getStudent()">
+        <option value="Neha">Neha</option>
+        <option value="Aditya">Aditya</option>
+        <option value="Himanshi">Himanshi</option>
+    </select>
+    <h3 id="studName">You selected user</h3>
+    <!-- bs js cdn -->
+    <!-- custom js -->
+
+    <script>
+        function getStudent(){
+            var studname = document.getElementById("studentsName").value;
+            document.getElementById("studName").innerHTML="You selected "+studname;
+        }
+    </script>
+    
+</body>
+</html>

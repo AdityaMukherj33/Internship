@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+
+</head>
+<body>
+    <h1>JS Events</h1>
+    <input type="text" id="fname">
+    
+    <button onclick="Click()">Click me...</button>
+    <h3 id="data"></h3>
+    <script>
+        function setData(){
+            var data = document.getElementById("fname").value;
+            data = data.toUpperCase();
+            document.getElementById("fname").value = data;
+        }
+        document.getElementById("fname").addEventListener("change",setData);
+    </script>
+    <script>
+        function Click(){
+            document.getElementById("data").innerHTML="Done.."
+        }
+    </script>
+    
+</body>
+</html>

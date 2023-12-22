@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            margin-top: 40px;
+            height: 540px;
+        }
+
+        .r-one {
+            border: 1px solid black;
+            height: 180px;
+            background-color: white;
+        }
+
+        .r-two {
+            border: 1px solid black;
+            height: 180px;
+            background-color: white;
+        }
+
+        .r-three {
+            border: 1px solid black;
+            height: 180px;
+            background-color: white;
+        }
+
+        .box-one {
+            border: 1px solid black;
+            padding-left: 160px;
+        }
+
+        .body-color {
+            background-color: rgb(9, 146, 201);
+        }
+    </style>
+</head>
+
+<body class="body-color">
+    <div class="container">
+        <h1>TIC-TAC-TOE</h1>
+        <div class="row r-one">
+            <div class="col box-one">
+                <button type="button" class="btn btn-primary" onclick="Xnot()">x</button>
+                <h2 id="datone"></h2>
+                <button type="button" class="btn btn-danger" onclick="Onot()">o</button>
+                <h2 id="dat2"></h2>
+                <script>
+                    function Xnot() {
+                        document.getElementById("datone").innerHTML = "X";
+                    }
+                    function Onot() {
+                        document.getElementById("dat2").innerHTML = "O";
+                    }
+                </script>
+            </div>
+            <div class="col box-one">
+                <button type="button" class="btn btn-primary" onclick="Xnot1()">x</button>
+                <h2 id="dat1"></h2>
+                <button type="button" class="btn btn-danger" onclick="Onot1()">o</button>
+                <h2 id="dat21"></h2>
+                <script>
+                    function Xnot1() {
+                        document.getElementById("dat1").innerHTML = "X";
+                    }
+                    function Onot1() {
+                        document.getElementById("dat21").innerHTML = "O";
+                    }
+                </script>
+            </div>
+            <div class="col box-one">
+                <button type="button" class="btn btn-primary" onclick="Xnot2()">x</button>
+                <h2 id="dat02"></h2>
+                <button type="button" class="btn btn-danger" onclick="Onot2()">o</button>
+                <h2 id="dat22"></h2>
+                <script>
+                    function Xnot2() {
+                        document.getElementById("dat02").innerHTML = "X";
+                    }
+                    function Onot2() {
+                        document.getElementById("dat22").innerHTML = "O";
+                    }
+                </script>
+            </div>
+
+        </div>
+        <div class="row r-two">
+            <div class="col box-one">
+                <button type="button" class="btn btn-primary" onclick="Xnot3()">x</button>
+                <h1 id="dat3"></h1>
+                <button type="button" class="btn btn-danger" onclick="Onot3()">o</button>
+                <h1 id="dat23"></h1>
+                <script>
+                    function Xnot3() {
+                        document.getElementById("dat3").innerHTML = "X";
+                    }
+                    function Onot3() {
+                        document.getElementById("dat23").innerHTML = "O";
+                    }
+                </script>
+            </div>
+            <div class="col box-one">
+                <button type="button" class="btn btn-primary" onclick="Xnot4()">x</button>
+                <h1 id="dat4"></h1>
+                <button type="button" class="btn btn-danger" onclick="Onot4()">o</button>
+                <h1 id="dat24"></h1>
+                <script>
+                    function Xnot4() {
+                        document.getElementById("dat4").innerHTML = "X";
+                    }
+                    function Onot4() {
+                        document.getElementById("dat24").innerHTML = "O";
+                    }
+                </script>
+            </div>
+            <div class="col box-one">
+                <button type="button" class="btn btn-primary" onclick="Xnot5()">x</button>
+                <h1 id="dat5"></h1>
+                <button type="button" class="btn btn-danger" onclick="Onot5()">o</button>
+                <h1 id="dat25"></h1>
+                <script>
+                    function Xnot5() {
+                        document.getElementById("dat5").innerHTML = "X";
+                    }
+                    function Onot5() {
+                        document.getElementById("dat25").innerHTML = "O";
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="row r-three">
+            <div class="col box-one">
+                <button type="button" class="btn btn-primary" onclick="Xnot6()">x</button>
+                <h1 id="dat6"></h1>
+                <button type="button" class="btn btn-danger" onclick="Onot6()">o</button>
+                <h1 id="dat26"></h1>
+                <script>
+                    function Xnot6() {
+                        document.getElementById("dat6").innerHTML = "X";
+                    }
+                    function Onot6() {
+                        document.getElementById("dat26").innerHTML = "O";
+                    }
+                </script>
+            </div>
+            <div class="col box-one">
+                <button type="button" class="btn btn-primary" onclick="Xnot7()">x</button>
+                <h1 id="dat7"></h1>
+                <button type="button" class="btn btn-danger" onclick="Onot7()">o</button>
+                <h1 id="dat27"></h1>
+                <script>
+                    function Xnot7() {
+                        document.getElementById("dat7").innerHTML = "X";
+                    }
+                    function Onot7() {
+                        document.getElementById("dat27").innerHTML = "O";
+                    }
+                </script>
+            </div>
+            <div class="col box-one">
+                <button type="button" class="btn btn-primary" onclick="Xnot8()">x</button>
+                <h1 id="dat8"></h1>
+                <button type="button" class="btn btn-danger" onclick="Onot8()">o</button>
+                <h1 id="dat28"></h1>
+                <script>
+                    function Xnot8() {
+                        document.getElementById("dat8").innerHTML = "X";
+                    }
+                    function Onot8() {
+                        document.getElementById("dat28").innerHTML = "O";
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
